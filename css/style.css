@@ -8,3 +8,22 @@
 #Contact-us{
     color: green;
 }
+
+li:first-child{
+    color: gold;
+}
+li:last-child{
+    color: pink;
+}
+li:nth-child(2){ 
+    color: blue;
+}
+thead tr td:last-child{
+
+    color: red;
+}
+
+/* advanced selector */
+h2 + a{
+    color: red;
+}
