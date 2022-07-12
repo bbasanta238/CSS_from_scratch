@@ -6,6 +6,7 @@ tag name is element selcectit
 p{
 
 }
+
 h1{
 
 }
@@ -64,4 +65,32 @@ h2 + a{
     color: red;
 }
 
- <!-- change the anchor links color red that comes after every h2 --> 
+ <!-- change the anchor links color red that comes after every h2 --> (h2 + a)
+
+<!-- /* every butto after text area but under same parent element */ -->
+textarea ~ button{
+    color: green;
+}
+
+<!-- /* every single li inside of ul change color to blueviolet*/ -->
+ul>li{
+    color: blueviolet;
+}
+<!-- -----------------------------IMPORTANCE -->
+
+">" is the child selector(ul>li)
+
+"" is the descendant selector(ul li)
+
+The difference is that a descendant can be a child of the element, or a child of a child of the element or a child of a child of a child ad inifinitum.
+
+A child element is simply one that is directly contained within the parent element:
+
+<foo> <!-- parent -->
+  <bar> <!-- child of foo, descendant of foo -->
+    <baz> <!-- descendant of foo -->
+    </baz>
+  </bar>
+</foo>
+
+for this example, foo * would match <bar> and <baz>, whereas foo > * would only match <bar>.m

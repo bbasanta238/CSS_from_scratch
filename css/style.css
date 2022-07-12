@@ -10,12 +10,12 @@
 }
 
 li:first-child{
-    color: gold;
+    /* color: gold; */
 }
 li:last-child{
-    color: pink;
+    /* color: pink; */
 }
-li:nth-child(2){ 
+li:nth-child(3){ 
     color: blue;
 }
 thead tr td:last-child{
@@ -24,6 +24,21 @@ thead tr td:last-child{
 }
 
 /* advanced selector */
+/* !-- change the anchor links color red that comes after every h2 --> (h2 + a) */
 h2 + a{
     color: red;
 }
+
+/* every butto after text area but under same parent element */
+textarea ~ button{
+    color: green;
+}
+
+/* every single li inside of ul */
+ul>li{
+    color: blueviolet;
+}
+
+/* ul li{
+    /* color: red; */
+} */
