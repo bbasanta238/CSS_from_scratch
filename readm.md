@@ -115,3 +115,23 @@ background-size: cover; i
 <!-- it fills the div with image nut doesnot care about proportion, it will simply remove the part that goes out of div while stretching -->
 
 
+<!-- different types of units -->
+
+PX
+% --> depends on its parent element
+em -->depends on its parent element  // 1em = 16px
+rem --> depends on ::root or html 
+
+<!-- NOTE: -->
+in padding,margin use of em makes alot responsive since em depends on its font size;
+
+eg:
+.p{
+    font-size: 2em;
+    padding: 1em; //here padding 1em = font-size 2em
+}
+
+.p{
+    font-size: 2rem;
+    padding: 1rem; //here 1rem of padding depends on root but not its font-size---
+}
