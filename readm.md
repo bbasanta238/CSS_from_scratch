@@ -1,7 +1,7 @@
 <!--  -->
 <!-- SELECTOR -->
 <!-- element selsector -->
-tag name is element selcectit
+tag name is element selcect0r
 
 p{
 
@@ -93,4 +93,25 @@ A child element is simply one that is directly contained within the parent eleme
   </bar>
 </foo>
 
-for this example, foo * would match <bar> and <baz>, whereas foo > * would only match <bar>.m
+
+<!-- other seector -->
+eg. img[src="../img/"]{
+
+}
+<!--selectingElement[attribute = value]  -->
+
+
+
+<!-- CSS general rules -->
+selector{
+    property: value;
+}
+
+<!--background  -->
+background-size: contain; 
+<!-- it stretch the image with constant proportion -->
+
+background-size: cover; i
+<!-- it fills the div with image nut doesnot care about proportion, it will simply remove the part that goes out of div while stretching -->
+
+

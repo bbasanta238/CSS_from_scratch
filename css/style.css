@@ -10,10 +10,10 @@
 }
 
 li:first-child{
-    /* color: gold; */
+    color: gold;
 }
 li:last-child{
-    /* color: pink; */
+    color: pink;
 }
 li:nth-child(3){ 
     color: blue;
@@ -41,4 +41,4 @@ ul>li{
 
 /* ul li{
     /* color: red; */
-} */
+/* }  */
