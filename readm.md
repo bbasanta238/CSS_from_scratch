@@ -188,7 +188,7 @@ display: none -->disappears the element
 
 
 <!--  -->
-<!-- FLEXBOX -->
+<!-- FLEXBOX --> all below properties are used in flex --------------------------->
 <!--  -->
 
 display : flex 
@@ -212,10 +212,58 @@ align-item : flex-start || flex-end || center ||stretch  --> align item betweem 
 output order: B A C
 
 <!-- other flex properties -->
-flex-grow : 1 || 2 --> grabs the 1 or 2 times extraspace available
-flex-shrink : 0||1||2 -->shrinks the element 1 or 2 times fast, 0 means don't shrink that item
-flex-basis :100px -->identify minimum width of any flex-element
+flex-grow : 1 || 2 --> grabs the 1 or 2 times extra space available  //default for flex-grow is 0
+
+flex-shrink : 0||1||2 -->shrinks the element 1 or 2 times fast, 0 means don't shrink that item //default is 1
+
+flex-basis :100px -->identify minimum width of any flex-element //there is no default for flex-basis
 
 NOTE: when the tab size goes below flex-basis minimum width, the proportion of flex-grow is lost and flex-shrink default value is applied
 
 flex-box:1 -->default value is 1 that shrinks all the element at same rate
+
+<!-- All three properties can be used in a single line -->
+
+flex: frow shrink basis
+eg. flex: 1 1 100px;
+
+<!--  -->
+<!-- ------ITEM ALIGNMETN------------ -->
+<!--  -->
+align-self will override algin-item
+
+align-self: center||flex-start||flex-end
+
+<!--  -->
+<!-- till here flexbox-------------------------------- -->
+<!--  -->
+
+<!-- ----------------------------------- -->
+<!-- GRID -->
+<!-- ------------------------------------------------- -->
+
+display: grid
+
+Template rows and columns
+
+grid-template-columns: auto auto auto;   unit like px,em,...,fr can also be used
+<!-- elements are placed in 3columns -->
+
+grid-template-rows: auto auto ;
+<!-- elements are placed in 2 rows -->
+
+<!--  -->
+JUSTIFY AND ALIGN GRID
+<!--  -->
+
+justify-content:
+align-content:
+
+<!-- grid gap -->
+
+grid-column-gap: 10px;
+grid-row-gap: 100px;
+
+all together can be used by foloowing ways
+
+grid gap: 200px 150px;  //row-gap column-gap 
