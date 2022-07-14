@@ -161,3 +161,61 @@ monospace
  font-family: 'Inter', sans-serif;
 
  <!-- here at firs 'Inter; font is loaded that is taken from internet but if in case of failure of loading Inter font family then sans-serif is applied (NOTE: sans-serif is alredy in almost every machine) -->
+
+
+<!-- float -->
+first should know about inline and block level element
+
+block level element
+eg: <p>,<div>,
+
+inline element
+eg; <span>
+
+<!-- important: inline block -->
+combination of both block and inline element
+
+lets talk about float
+
+<!-- float--> simply how the element float in the page -->
+float: right --> pushed that element in right and according below element are pushed to the left side of that element
+<!--  -->
+<!--  -->
+DISPLAY
+<!--  -->
+<!--  -->
+display: none -->disappears the element
+
+
+<!--  -->
+<!-- FLEXBOX -->
+<!--  -->
+
+display : flex 
+
+flex-direction: row or column  -> A-E
+flex-direction: column-reverse //--> reverse the element like E-A
+flex-wrap : wrap || reverse ||nowrap --> no wrap means all item is squezzed to fit in a single line
+<!-- row is default value -->
+
+justify-content : flex-start|| flex-end|| center|| space-between||.... -->align item between left and right corner
+align-item : flex-start || flex-end || center ||stretch  --> align item betweem top and bottom
+
+<!-- inline order element in a flexboc-container -->
+<!-- ----------------------- -->
+<div class="container">
+        <div class="container-item" style="order:2;">A</div>
+        <div class="container-item" style="order:1;">B</div>
+        <div class="container-item" style="order:3;">C</div>
+</div>
+
+output order: B A C
+
+<!-- other flex properties -->
+flex-grow : 1 || 2 --> grabs the 1 or 2 times extraspace available
+flex-shrink : 0||1||2 -->shrinks the element 1 or 2 times fast, 0 means don't shrink that item
+flex-basis :100px -->identify minimum width of any flex-element
+
+NOTE: when the tab size goes below flex-basis minimum width, the proportion of flex-grow is lost and flex-shrink default value is applied
+
+flex-box:1 -->default value is 1 that shrinks all the element at same rate
