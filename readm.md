@@ -135,3 +135,29 @@ eg:
     font-size: 2rem;
     padding: 1rem; //here 1rem of padding depends on root but not its font-size---
 }
+
+<!-- text align property -->
+center: -> all text align to center
+justify:-> takes all text and matched it to take all of its width as possible
+
+
+<!-- mostly used fonts -->
+serif
+sans-serif
+monospace
+
+
+<!-- NOTE : !important -->
+
+  <!-- external fonts link are place above the stylesheet so that before compiling stylesheet the fonts are ready to go -->
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- external fonts link are place above the stylesheet so that before compiling stylesheet the fonts are ready to go -->
+    <link rel="stylesheet" href="../css/style.css">
+
+<!-- -------------------------------------------- -->
+
+ font-family: 'Inter', sans-serif;
+
+ <!-- here at firs 'Inter; font is loaded that is taken from internet but if in case of failure of loading Inter font family then sans-serif is applied (NOTE: sans-serif is alredy in almost every machine) -->

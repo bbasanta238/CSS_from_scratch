@@ -1,5 +1,12 @@
+body{
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+ 
+} 
 .title{
-    color: red;
+    color: red; 
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .subtitle{
@@ -41,4 +48,4 @@ ul>li{
 
 /* ul li{
     /* color: red; */
-/* }  */
+/* }   */
