@@ -1,0 +1,20 @@
+/* 
+Primary Font: Lato
+Secondary Font: Roboto Condensed
+Dark Blue - rgb(70, 137, 244)
+Light Blue - rgb(186, 212, 255)
+'Bold' Orange - rgb(229, 158, 66)
+Light Orange - rgb(255, 227, 191)
+*/
+img{
+    width: 40%;
+    height: 30%;
+}
+#main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-family: 'Lato', Roboto Condensed;
+}
+.content{
+    background-color: rgb(186,212,255);
+}

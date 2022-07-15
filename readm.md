@@ -201,7 +201,7 @@ flex-wrap : wrap || reverse ||nowrap --> no wrap means all item is squezzed to f
 justify-content : flex-start|| flex-end|| center|| space-between||.... -->align item between left and right corner
 align-item : flex-start || flex-end || center ||stretch  --> align item betweem top and bottom
 
-<!-- inline order element in a flexboc-container -->
+<!-- inline order element in a flexbox-container -->
 <!-- ----------------------- -->
 <div class="container">
         <div class="container-item" style="order:2;">A</div>
