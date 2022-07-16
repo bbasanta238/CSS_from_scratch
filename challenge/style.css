@@ -6,17 +6,17 @@ Light Blue - rgb(186, 212, 255)
 'Bold' Orange - rgb(229, 158, 66)
 Light Orange - rgb(255, 227, 191)
 */
-*{
+ *{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 img{
-    width: 400px;
-    height: 200px;
+    /* width: 400px;
+    height: 200px; */
 }
 #main{
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr 1.5fr;
     grid-gap: 50px;
     font-family: 'Lato', Roboto Condensed;
     background-color: rgb(186,212,255);
@@ -24,9 +24,22 @@ img{
 }
 .content{
     margin: 5px;
-    /* background-color: rgb(186,212,255); */
+    
 }
 
+.content .subtitle{
+    margin: 10px 0 15px 0px;
+}
+
+.content .topic-subtitle{
+    margin: 10px 0px 15px 0px;
+}
+.content #image-1{
+    width: 18rem;
+    height: 12rem;
+    float: right;
+    margin-left: 15px;
+}
 .sidebar{
     margin-top: 5px;
     background-color: rgb(255, 227, 191);
@@ -36,4 +49,20 @@ img{
     padding: 5px;
     border: 1px solid rgb(229, 158, 66);
     margin: 5px;
+} 
+
+.sidebar .post .post-title + p{
+    margin: 10px 0px;
+}
+.sidebar .post .post-text +a{
+    /* text-decoration: overline; */
+    text-decoration: none;
+    /* background-color: aqua; */
+    /* color:  rgb(70, 137, 244); */
+}
+.sidebar a:link{
+    color:  rgb(70, 137, 244);
+}
+.sidebar a:visited{
+    color: purple;
 }
