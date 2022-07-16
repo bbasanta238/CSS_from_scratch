@@ -267,3 +267,43 @@ grid-row-gap: 100px;
 all together can be used by foloowing ways
 
 grid gap: 200px 150px;  //row-gap column-gap 
+
+<!-- grid coulumn and grid row -->
+grid-column : 1/2;
+grid row : 1/2;
+
+<!-- combine both column and row -->
+grid-area : 1/1/2/2
+row start/coulmn start/row end/column end
+
+<!-- browser prefixes -->
+-webkit-
+-moz-
+-o-
+-ms-
+
+<!-- particular for some browser -->
+-webkit-transistion: -->for chrome and safari
+-moz-transition: -->for mozilla
+-o-transition: --> for opera
+
+<!-- keyframe -->
+animation has atleast two key frames one starting and other ending
+
+<!-- @keyframes name {} -->
+@keyframes translate-element{
+    from{ background : red }
+    to {background: black }
+}
+
+#about{
+    animation-name: translate-element;
+    annimation-duration:
+    animation-iteration-count: 2 || infinite
+    animation-timing-function:
+    animation-direction:
+
+<!-- combinily -->
+    animation: animation-name, animaiton-duration ,timing-function , delay ,iteration-count ,animation-direction
+
+}
